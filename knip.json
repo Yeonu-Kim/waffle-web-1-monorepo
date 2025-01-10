@@ -9,8 +9,8 @@
       "project": "**/*.{ts,tsx}"
     },
     "packages/*": {
-      "entry": "src/main.tsx",
-      "project": "**/*.{ts,tsx}"
+      "entry": "index.js",
+      "project": "**/*.{ts,js}"
     }
   }
 }
