@@ -1,12 +1,16 @@
 {
   "workspaces": {
+    ".": {
+      "entry": [],
+      "project": [".prettierrc", "package.json", ".yarnrc.yml"]
+    },
     "apps/*": {
-      "entry": "src/main.tsx",
-      "project": "**/*.{ts,tsx}"
+      "entry": ["src/main.tsx"],
+      "project": ["src/**/*.{ts,tsx}"]
     },
     "packages/*": {
-      "entry": "index.js",
-      "project": "**/*.{ts,js}"
+      "entry": ["{index,cli}.ts"],
+      "project": ["**/*.ts"]
     }
   }
 }
