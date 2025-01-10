@@ -1,0 +1,10 @@
+{
+  "name": "@yeonu/eslint-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "type": "module",
+  "dependencies": {
+    "@woohm402/eslint-config-react": "0.8.0"
+  }
+}

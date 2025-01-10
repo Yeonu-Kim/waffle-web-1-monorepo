@@ -1,0 +1,18 @@
+{
+  "workspaces": {
+    ".": {
+      "entry": [],
+      "project": [".prettierrc", "package.json", ".yarnrc.yml"]
+    },
+    "apps/*": {
+      "entry": ["src/main.tsx"],
+      "project": ["**/*.{ts,tsx}"]
+    },
+    "packages/*": {
+      "entry": ["{index,cli}.ts"],
+      "project": ["**/*.ts"]
+    }
+  },
+  "ignoreDependencies": ["eslint", "prettier"],
+  "ignoreBinaries": ["eslint", "prettier", "tsc", "vite", "knip"]
+}

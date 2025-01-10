@@ -11,12 +11,10 @@
     "format:fix": "prettier --write .",
     "lint:check": "eslint .",
     "lint:fix": "eslint --fix .",
-    "unused:check": "knip",
-    "check-all": "yarn types:check && yarn format:check && yarn lint:check && yarn unused:check"
+    "check": "yarn types:check && yarn format:check && yarn lint:check"
   },
   "dependencies": {
     "@yeonu/math": "workspace:*",
-    "@yeonu/utils": "workspace:*",
     "react": "18.3.1",
     "react-dom": "18.3.1"
   },
@@ -25,12 +23,10 @@
     "@types/react": "18.3.11",
     "@types/react-dom": "18.3.1",
     "@vitejs/plugin-react-swc": "3.7.1",
-    "@woohm402/eslint-config-react": "0.8.0",
+    "@yeonu/eslint-react": "workspace:*",
     "eslint": "9.12.0",
-    "knip": "5.33.3",
     "prettier": "3.3.3",
     "typescript": "5.6.3",
     "vite": "5.4.9"
-  },
-  "packageManager": "yarn@4.4.1"
+  }
 }
