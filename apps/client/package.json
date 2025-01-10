@@ -12,8 +12,7 @@
     "format:fix": "prettier --write .",
     "lint:check": "eslint .",
     "lint:fix": "eslint --fix .",
-    "unused:check": "knip",
-    "check": "yarn types:check && yarn format:check && yarn lint:check && yarn unused:check"
+    "check": "yarn types:check && yarn format:check && yarn lint:check"
   },
   "dependencies": {
     "@react-oauth/google": "0.12.1",
@@ -29,7 +28,6 @@
     "@vitejs/plugin-react-swc": "3.7.1",
     "@yeonu/eslint-react": "workspace:*",
     "eslint": "9.12.0",
-    "knip": "5.33.3",
     "msw": "2.7.0",
     "prettier": "3.3.3",
     "typescript": "5.6.3",
