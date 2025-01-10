@@ -11,7 +11,8 @@
     "format:fix": "prettier --write .",
     "lint:check": "eslint .",
     "lint:fix": "eslint --fix .",
-    "check": "yarn types:check && yarn format:check && yarn lint:check"
+    "unused:check": "knip",
+    "check": "yarn types:check && yarn format:check && yarn lint:check && yarn unused:check"
   },
   "dependencies": {
     "@yeonu/math": "workspace:*",
