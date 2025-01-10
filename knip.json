@@ -1,10 +1,6 @@
 {
   "workspaces": {
-    "apps/client": {
-      "entry": "src/main.tsx",
-      "project": "**/*.{ts,tsx}"
-    },
-    "apps/admin": {
+    "apps/*": {
       "entry": "src/main.tsx",
       "project": "**/*.{ts,tsx}"
     },
