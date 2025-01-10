@@ -1,0 +1,14 @@
+{
+  "typescript.tsdk": ".yarn/sdks/typescript/lib",
+  "eslint.workingDirectories": [
+    "./apps",
+    "./packages"
+  ],
+  "search.exclude": {
+    "**/.yarn": true,
+    "**/.pnp.*": true
+  },
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "eslint.nodePath": ".yarn/sdks",
+  "prettier.prettierPath": ".yarn/sdks/prettier/index.cjs"
+}
