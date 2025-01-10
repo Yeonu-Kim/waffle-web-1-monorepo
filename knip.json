@@ -6,11 +6,13 @@
     },
     "apps/*": {
       "entry": ["src/main.tsx"],
-      "project": ["src/**/*.{ts,tsx}"]
+      "project": ["**/*.{ts,tsx}"]
     },
     "packages/*": {
       "entry": ["{index,cli}.ts"],
       "project": ["**/*.ts"]
     }
-  }
+  },
+  "ignoreDependencies": ["eslint", "prettier"],
+  "ignoreBinaries": ["eslint", "prettier", "tsc", "vite", "knip"]
 }

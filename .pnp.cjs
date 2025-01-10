@@ -48,7 +48,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["eslint", "virtual:153feba997cc61a3cf2b119c73f0a46150f4475b2449b54a9c09ded230a7e59552f9ddaa3d6273b9d60d464227c04336d4b04595bea51827334f0e7840915565#npm:9.12.0"],\
-          ["knip", "virtual:153feba997cc61a3cf2b119c73f0a46150f4475b2449b54a9c09ded230a7e59552f9ddaa3d6273b9d60d464227c04336d4b04595bea51827334f0e7840915565#npm:5.33.3"],\
+          ["knip", "virtual:153feba997cc61a3cf2b119c73f0a46150f4475b2449b54a9c09ded230a7e59552f9ddaa3d6273b9d60d464227c04336d4b04595bea51827334f0e7840915565#npm:5.34.0"],\
           ["typescript", "patch:typescript@npm%3A5.6.3#optional!builtin<compat/typescript>::version=5.6.3&hash=8c6c40"]\
         ],\
         "linkType": "SOFT"\
@@ -3485,17 +3485,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["knip", [\
-      ["npm:5.33.3", {\
-        "packageLocation": "../../../.yarn/berry/cache/knip-npm-5.33.3-701079adfc-10c0.zip/node_modules/knip/",\
+      ["npm:5.34.0", {\
+        "packageLocation": "../../../.yarn/berry/cache/knip-npm-5.34.0-f562cea492-10c0.zip/node_modules/knip/",\
         "packageDependencies": [\
-          ["knip", "npm:5.33.3"]\
+          ["knip", "npm:5.34.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:153feba997cc61a3cf2b119c73f0a46150f4475b2449b54a9c09ded230a7e59552f9ddaa3d6273b9d60d464227c04336d4b04595bea51827334f0e7840915565#npm:5.33.3", {\
-        "packageLocation": "./.yarn/__virtual__/knip-virtual-8aa33b1d36/4/.yarn/berry/cache/knip-npm-5.33.3-701079adfc-10c0.zip/node_modules/knip/",\
+      ["virtual:153feba997cc61a3cf2b119c73f0a46150f4475b2449b54a9c09ded230a7e59552f9ddaa3d6273b9d60d464227c04336d4b04595bea51827334f0e7840915565#npm:5.34.0", {\
+        "packageLocation": "./.yarn/__virtual__/knip-virtual-5375e1b522/4/.yarn/berry/cache/knip-npm-5.34.0-f562cea492-10c0.zip/node_modules/knip/",\
         "packageDependencies": [\
-          ["knip", "virtual:153feba997cc61a3cf2b119c73f0a46150f4475b2449b54a9c09ded230a7e59552f9ddaa3d6273b9d60d464227c04336d4b04595bea51827334f0e7840915565#npm:5.33.3"],\
+          ["knip", "virtual:153feba997cc61a3cf2b119c73f0a46150f4475b2449b54a9c09ded230a7e59552f9ddaa3d6273b9d60d464227c04336d4b04595bea51827334f0e7840915565#npm:5.34.0"],\
           ["@nodelib/fs.walk", "npm:1.2.8"],\
           ["@snyk/github-codeowners", "npm:1.1.0"],\
           ["@types/node", null],\
@@ -3514,7 +3514,7 @@ const RAW_RUNTIME_STATE =
           ["summary", "npm:2.1.0"],\
           ["typescript", "patch:typescript@npm%3A5.6.3#optional!builtin<compat/typescript>::version=5.6.3&hash=8c6c40"],\
           ["zod", "npm:3.24.1"],\
-          ["zod-validation-error", "virtual:8aa33b1d36a730fb12e5c0b3c7686fcbbacc17557e5080f3cddfc3caf8b4a43f1f20885d3e85e845266ee246becf59e3c642250664f78bc453b7cd728f51185e#npm:3.4.0"]\
+          ["zod-validation-error", "virtual:5375e1b522b7f956ea05c9416507014cebf39ef88ca5f031da8effc68a75b29adf361587d2a40e713f3960386eb6e595bf5898962ab79542060206a0fcdec932#npm:3.4.0"]\
         ],\
         "packagePeers": [\
           "@types/node",\
@@ -3745,7 +3745,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["monorepo", "workspace:."],\
           ["eslint", "virtual:153feba997cc61a3cf2b119c73f0a46150f4475b2449b54a9c09ded230a7e59552f9ddaa3d6273b9d60d464227c04336d4b04595bea51827334f0e7840915565#npm:9.12.0"],\
-          ["knip", "virtual:153feba997cc61a3cf2b119c73f0a46150f4475b2449b54a9c09ded230a7e59552f9ddaa3d6273b9d60d464227c04336d4b04595bea51827334f0e7840915565#npm:5.33.3"],\
+          ["knip", "virtual:153feba997cc61a3cf2b119c73f0a46150f4475b2449b54a9c09ded230a7e59552f9ddaa3d6273b9d60d464227c04336d4b04595bea51827334f0e7840915565#npm:5.34.0"],\
           ["typescript", "patch:typescript@npm%3A5.6.3#optional!builtin<compat/typescript>::version=5.6.3&hash=8c6c40"]\
         ],\
         "linkType": "SOFT"\
@@ -5440,10 +5440,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:8aa33b1d36a730fb12e5c0b3c7686fcbbacc17557e5080f3cddfc3caf8b4a43f1f20885d3e85e845266ee246becf59e3c642250664f78bc453b7cd728f51185e#npm:3.4.0", {\
-        "packageLocation": "./.yarn/__virtual__/zod-validation-error-virtual-80ae7422c9/4/.yarn/berry/cache/zod-validation-error-npm-3.4.0-1c97ee8445-10c0.zip/node_modules/zod-validation-error/",\
+      ["virtual:5375e1b522b7f956ea05c9416507014cebf39ef88ca5f031da8effc68a75b29adf361587d2a40e713f3960386eb6e595bf5898962ab79542060206a0fcdec932#npm:3.4.0", {\
+        "packageLocation": "./.yarn/__virtual__/zod-validation-error-virtual-c72daee0f8/4/.yarn/berry/cache/zod-validation-error-npm-3.4.0-1c97ee8445-10c0.zip/node_modules/zod-validation-error/",\
         "packageDependencies": [\
-          ["zod-validation-error", "virtual:8aa33b1d36a730fb12e5c0b3c7686fcbbacc17557e5080f3cddfc3caf8b4a43f1f20885d3e85e845266ee246becf59e3c642250664f78bc453b7cd728f51185e#npm:3.4.0"],\
+          ["zod-validation-error", "virtual:5375e1b522b7f956ea05c9416507014cebf39ef88ca5f031da8effc68a75b29adf361587d2a40e713f3960386eb6e595bf5898962ab79542060206a0fcdec932#npm:3.4.0"],\
           ["@types/zod", null],\
           ["zod", "npm:3.24.1"]\
         ],\

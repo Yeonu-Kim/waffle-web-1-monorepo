@@ -2851,9 +2851,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"knip@npm:5.33.3":
-  version: 5.33.3
-  resolution: "knip@npm:5.33.3"
+"knip@npm:5.34.0":
+  version: 5.34.0
+  resolution: "knip@npm:5.34.0"
   dependencies:
     "@nodelib/fs.walk": "npm:1.2.8"
     "@snyk/github-codeowners": "npm:1.1.0"
@@ -2877,7 +2877,7 @@ __metadata:
   bin:
     knip: bin/knip.js
     knip-bun: bin/knip-bun.js
-  checksum: 10c0/4d47d990014606dd7690e18e1aa52745409977cf03cb6d85a1effb23bcf1e14d8b4dd9679f766efc59365eed01c8d7784fe8ff7781828af6f7b29556b392f458
+  checksum: 10c0/a69c02f3875c293833f52d84778cc17055c18ea6f35dd95d4213374d3caf1819530c3587e351f28575d6a7c7c34268a0b83b36932a2c20a68ed023ca513d4222
   languageName: node
   linkType: hard
 
@@ -3084,7 +3084,7 @@ __metadata:
   resolution: "monorepo@workspace:."
   dependencies:
     eslint: "npm:9.12.0"
-    knip: "npm:5.33.3"
+    knip: "npm:5.34.0"
     typescript: "npm:5.6.3"
   languageName: unknown
   linkType: soft
