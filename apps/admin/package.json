@@ -11,7 +11,7 @@
     "format:fix": "prettier --write .",
     "lint:check": "eslint .",
     "lint:fix": "eslint --fix .",
-    "check-all": "yarn types:check && yarn format:check && yarn lint:check"
+    "check": "yarn types:check && yarn format:check && yarn lint:check"
   },
   "dependencies": {
     "@yeonu/math": "workspace:*",
@@ -29,6 +29,5 @@
     "prettier": "3.3.3",
     "typescript": "5.6.3",
     "vite": "5.4.9"
-  },
-  "packageManager": "yarn@4.4.1"
+  }
 }
