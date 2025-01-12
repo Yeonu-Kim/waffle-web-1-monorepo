@@ -2,6 +2,7 @@
   "name": "@yeonu/eslint-react",
   "version": "1.0.0",
   "packageManager": "yarn@4.4.1",
+  "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
