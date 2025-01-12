@@ -4,7 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --mode dev",
+    "predev": "yarn --cwd ../.. build-pkg",
+    "dev": "yarn predev && vite --mode dev",
     "mock": "vite --mode mock",
     "build": "tsc -b && vite build --mode prod",
     "types:check": "tsc",

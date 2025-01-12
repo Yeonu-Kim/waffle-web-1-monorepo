@@ -13,6 +13,6 @@
       "project": ["**/*.ts"]
     }
   },
-  "ignoreDependencies": ["eslint", "prettier"],
-  "ignoreBinaries": ["eslint", "prettier", "tsc", "vite", "knip"]
+  "ignoreDependencies": ["eslint", "prettier", "react", "@types/react"],
+  "ignoreBinaries": ["eslint", "prettier", "tsc", "vite", "knip", "build-pkg"]
 }
